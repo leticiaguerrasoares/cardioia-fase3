@@ -1,13 +1,25 @@
+# FIAP - Faculdade de Informática e Administração Paulista
+
+<p align="center">
+  <img src="logo-fiap.png" alt="FIAP" width="40%">
+</p>
+
+<br>
+
 # CardioIA — Fase 3: Monitoramento Contínuo (IoT na Saúde)
 
 Projeto acadêmico do curso de IA da FIAP. Nesta fase construímos um protótipo de **monitor cardíaco vestível** com ESP32, cobrindo o ciclo completo de IoT em saúde digital: **captura → processamento → transmissão → visualização → alerta**, integrando Edge, Fog e Cloud Computing.
 
-## Autores (dupla)
+## Equipe
 
-| Parte | Responsável | Entrega |
-|-------|-------------|---------|
-| Parte 1 — Armazenamento e processamento local (Edge Computing) | João Rafael | `Parte-1/` |
-| Parte 2 — Transmissão para a nuvem e visualização (Fog/Cloud) | Leticia Guerra — RM 567501 | `Parte-2/` |
+Trabalho desenvolvido em grupo. Integrantes:
+
+- João Rafael Gonçalves Ramos — RM: (preencher)
+- Letícia Angelim Guerra — RM: 567501
+- Matheus Guimarães França — RM: (preencher)
+- Rivando Bezerra Cavalcanti Neto — RM: 568235
+
+A equipe dividiu as tarefas entre os integrantes. Nesta fase (PBL de IoT), a Parte 1 (Edge Computing) está em `Parte-1/` e a Parte 2 (Fog/Cloud) em `Parte-2/`.
 
 ## Visão geral
 
@@ -23,25 +35,15 @@ O mesmo dispositivo e circuito atravessam as duas partes. Os sensores são um **
 
 ## Estrutura do repositório
 
-```
-.
-├── README.md            (este arquivo)
-├── Parte-1/             Edge Computing — ESP32, armazenamento local e resiliência
-│   ├── README.md
-│   ├── sketch.ino
-│   ├── diagram.json
-│   ├── libraries.txt
-│   └── partitions.csv
-└── Parte-2/             Fog/Cloud — MQTT e dashboard
-    ├── README.md
-    ├── sketch.ino
-    ├── diagram.json
-    ├── libraries.txt
-    ├── flows.json               (dashboard do Node-RED, importável)
-    ├── relatorio-parte2.md      (relatório: fluxo MQTT + configuração do dashboard)
-    ├── GUIA-EXECUCAO.md
-    ├── dashboard-web/           (visualizador leve usado para gerar os prints)
-    └── prints/                  (evidências do dashboard funcionando)
-```
+| Caminho | Conteúdo |
+|---------|----------|
+| `README.md` | Este arquivo |
+| `logo-fiap.png` | Logo da FIAP |
+| `Parte-1/` | Edge Computing — ESP32, armazenamento local e resiliência |
+| `Parte-2/` | Fog/Cloud — transmissão MQTT e dashboard |
+| `Parte-2/flows.json` | Dashboard do Node-RED (importável) |
+| `Parte-2/relatorio-parte2.md` | Relatório: fluxo MQTT + configuração do dashboard |
+| `Parte-2/dashboard-web/` | Visualizador leve usado para gerar os prints |
+| `Parte-2/prints/` | Evidências do dashboard funcionando |
 
 Cada parte tem seu próprio `README.md` com os detalhes técnicos, os entregáveis e as instruções de execução.
