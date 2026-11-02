@@ -14,9 +14,9 @@ Projeto acadêmico do curso de IA da FIAP. Nesta fase construímos um protótipo
 
 Trabalho desenvolvido em grupo. Integrantes:
 
-- João Rafael Gonçalves Ramos — RM: (preencher)
+- João Rafael Gonçalves Ramos — RM: 567908
 - Letícia Angelim Guerra — RM: 567501
-- Matheus Guimarães França — RM: (preencher)
+- Matheus Guimarães França — RM: 567144
 - Rivando Bezerra Cavalcanti Neto — RM: 568235
 
 A equipe dividiu as tarefas entre os integrantes. Nesta fase (PBL de IoT), a Parte 1 (Edge Computing) está em `Parte-1/` e a Parte 2 (Fog/Cloud) em `Parte-2/`.
