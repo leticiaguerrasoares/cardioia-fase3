@@ -1,0 +1,5 @@
+Coloque aqui os 4 prints (nomes sugeridos):
+- serial_mqtt.png            (Monitor Serial publicando [NUVEM] {...})
+- dashboard_normal.png       (dashboard verde / Normal)
+- dashboard_alerta_febre.png (dashboard vermelho / FEBRE, medidor de temperatura vermelho)
+- dashboard_alerta_bpm.png   (grafico de BPM + alerta combinado)
